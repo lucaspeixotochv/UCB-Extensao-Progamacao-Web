@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="form">
+      <div>
+        <label for="value">Valor de venda</label>
+        <input type="number" name="value" id="value" />
+      </div>
+      <div>
+        <label for="installments">Quantidade de parcelas</label>
+        <select name="installments" id="installments">
+          <option value="1">1x</option>
+          <option value="2">2x</option>
+          <option value="3">3x</option>
+          <option value="4">4x</option>
+          <option value="5">5x</option>
+          <option value="6">6x</option>
+          <option value="7">7x</option>
+          <option value="8">8x</option>
+          <option value="9">9x</option>
+          <option value="10">10x</option>
+        </select>
+      </div>
+
+      <button type="submit">Resultado</button>
+    </form>
+
+    <div id="view"></div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
