@@ -4,7 +4,7 @@ const view = document.getElementById("view");
 class Calculos {
   listaVendas = [];
 
-  constructor(valor) {}
+  constructor() {}
 
   adicionar(num) {
     this.listaVendas.push(Number(num));
